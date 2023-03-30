@@ -2,19 +2,11 @@ from typing import List
 
 # Skeleton code for even_list
 def even_list(int_list):
-    """
-    Determines if a number is even and return an even list.
-    Args:
-    int_list: A list of integer.
-    Returns:
-    A list of even integers.
-    """
-    def even_list(int_list):
-        temp=[]
-        for i in int_list:
-            if(i % 2 == 0):
-                temp.append(i)
-        return temp
+    temp=[]
+    for i in int_list:
+        if(i % 2 == 0):
+            temp.append(i)
+    return temp
 
 # Skeleton code for sum_of_squares_of_even
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
